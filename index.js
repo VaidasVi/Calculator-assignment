@@ -11,7 +11,7 @@ function sumNumbers() {
     const num1 = Number(document.getElementById("num1").value);
     const num2 = Number(document.getElementById("num2").value);
 
-    let result = num1 + num2;
+    const result = num1 + num2;
     console.log(result);
 
     response.textContent = result;
@@ -24,7 +24,7 @@ sub.addEventListener("click", () => {
   const num1 = Number(document.getElementById("num1").value);
   const num2 = Number(document.getElementById("num2").value);
 
-  let result = num1 - num2;
+  const result = num1 - num2;
   console.log(result);
 
   response.textContent = result;
@@ -34,7 +34,7 @@ div.addEventListener("click", () => {
   const num1 = Number(document.getElementById("num1").value);
   const num2 = Number(document.getElementById("num2").value);
 
-  let result = (num1 / num2).toFixed(2);
+  const result = (num1 / num2).toFixed(2);
   console.log(result);
 
   response.textContent = result;
@@ -44,7 +44,7 @@ mul.addEventListener("click", () => {
   const num1 = Number(document.getElementById("num1").value);
   const num2 = Number(document.getElementById("num2").value);
 
-  let result = num1 * num2;
+  const result = num1 * num2;
   console.log(result);
 
   response.textContent = result;
@@ -54,7 +54,7 @@ mod.addEventListener("click", () => {
   const num1 = Number(document.getElementById("num1").value);
   const num2 = Number(document.getElementById("num2").value);
 
-  let result = num1 % num2;
+  const result = num1 % num2;
   console.log(result);
 
   response.textContent = result;
